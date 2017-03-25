@@ -13,7 +13,7 @@ public class CVStoreService {
 	private CVStoreInterface cvstoreinterface;
 	
 	public Customer findMyCV(){
-		return cvstoreinterface.findByUsername("sharat maharjan");
+		return cvstoreinterface.findByUsername("rajat maharjan");
 	}
 	
 	public String addCustomer(Customer customer){
